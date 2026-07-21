@@ -1,0 +1,4 @@
+interface:
+  display_name: "High-Signal Outreach"
+  short_description: "Research and write one-argument outreach"
+  default_prompt: "Use $write-high-signal-outreach to research the target, identify one contribution and proof, then draft a concise message with one direct ask."
