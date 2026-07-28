@@ -1,6 +1,6 @@
 ---
 name: write-high-signal-outreach
-description: "Research, reason through, draft, or rewrite concise cold outreach to founders, researchers, technical leads, hiring managers, and potential collaborators. Use for referral asks, research outreach, founder emails, technical networking, and follow-ups when the message must identify why this recipient, what the sender can contribute or achieve, why the collaboration fits, and one low-friction ask without explaining the recipient's own work back to them."
+description: "Research, reason through, draft, or rewrite concise cold outreach to founders, researchers, technical leads, hiring managers, and potential collaborators. Use for Research Engineer and research-role applications, academic collaboration, referral asks, founder emails, technical networking, and follow-ups when the message must identify why this recipient, what the sender can contribute or achieve, why the collaboration fits, and one low-friction ask without explaining the recipient's own work back to them."
 ---
 
 # Write High-Signal Outreach
@@ -11,17 +11,21 @@ Write for a busy, informed, skeptical reader. Assume the recipient knows their c
 
 Do not draft from a company name, role title, and resume alone. Complete this reasoning first:
 
-1. **Research the target**
+1. **Classify the intent**
+   Choose academic collaboration, research job, company job, or warm referral. Do not let a job application drift into a peer-research conversation.
+2. **Research the target**
    Verify the recipient's current role, the current project or hiring need, and the source date. Read the role, paper, product, or company material needed to understand the work.
-2. **Read the demand side**
-   Infer what output, bottleneck, or collaboration cost matters to this recipient. Separate source-backed facts from inference.
-3. **Choose the sender's value**
+3. **Model the recipient's decision**
+   Name what this person can offer and what they are deciding: research collaboration, supervision, hiring, referral, or routing. Infer their evaluation criteria and separate source-backed facts from inference.
+4. **State the sender's real intention**
+   Name the actual outcome sought. Do not disguise a job request as technical curiosity or a request for mentorship as a project pitch.
+5. **Choose the sender's value**
    Name one thing the sender could build, test, own, improve, or help decide. Choose one proof that supports that contribution.
-4. **Form the argument**
+6. **Form the argument**
    Answer three questions in order. Why this recipient? What can the sender contribute or achieve here? Why should these two people work together?
-5. **Choose the ask**
+7. **Choose the ask**
    Ask for the smallest next step appropriate to the relationship.
-6. **Draft and cut**
+8. **Draft and cut**
    Write only after the argument is clear, then remove sentences that do not carry it.
 
 Perform this work without making the user manage each step. Surface a short decision brief before drafting only when the thesis, recipient, or evidence remains uncertain, or when the user asks to discuss first. If the user asks for final copy, return the best supported version and flag only uncertainty that affects sendability.
@@ -70,6 +74,8 @@ Do not turn the message into a biography. New context must compete for space. Re
 ## Select Proof
 
 Prefer one piece of evidence over a skill list. Name what the sender personally built, changed, tested, shipped, or learned and the constraint that makes it relevant. Add a link when it verifies the claim.
+
+When a role or target context lists several responsibilities, choose the one ownership surface best supported by the sender's proof. Do not echo the recipient's entire job description as a contribution claim. Add a second surface only when the user explicitly asks for it or one sentence genuinely requires both.
 
 For research outreach, connect prior work through a shared technical structure such as policy interaction, reward design, evaluation, or environment design. Do not claim relevance merely because both projects involve AI.
 
@@ -126,12 +132,33 @@ Show interest through the specificity of the work proposed.
 - Read the relevant paper or project when sources are available.
 - Separate stated limitations from the sender's proposed extension.
 - Name one unresolved question without teaching the author their method.
+- Separate four functions before compressing the message: why the problem matters, why the sender can investigate it, why this group or project is the right setting, and what the sender wants to achieve through the collaboration.
+- Do not use a downstream product idea by itself as research motivation. Translate the motivating observation into a researchable gap: what phenomenon was observed, what mechanism remains unclear, where the current method fails, and what experiment could distinguish explanations.
 - Give one proof with a methodological connection.
 - State what the sender wants to achieve through the collaboration.
 - Show reduced supervision cost through past behavior, not a claim of independence.
 - Map one sentence to each question when the recipient requested a structured reply.
 - Prefer question-first language because the contribution is an experiment, hypothesis, or research result.
 - Use a CTA such as `Would you be open to a brief conversation about your current work and whether my background could be useful to an ongoing project this fall?` when the timing and claim are accurate.
+
+## Draft Research-Job Outreach
+
+- Treat a Research Engineer, Research Scientist, Applied Scientist, or research-role message as a job application.
+- State the named role and job-seeking intent early. Use `I'm reaching out about [role]` or `I'm applying for [role]`.
+- Use a research question or failure mode to prove fit, not to replace the application intent.
+- Name exactly one research or engineering loop the sender can own, such as dataset construction, evaluation design, experimentation, model training, online testing, or production feedback.
+- When the role lists several loops, select the one best supported by the proof. Never write `I can contribute across A, B, and C` or echo all listed responsibilities.
+- Connect one methodological proof to the role's current output.
+- Ask whether the background fits the role and whether a conversation makes sense.
+- Do not end with curiosity about how the recipient handles a problem when the actual goal is employment.
+
+Do not write:
+
+> Curious how your team handles evidence selection. Would you be open to a short conversation about it?
+
+Write:
+
+> Would you be open to a brief conversation about the role and whether my retrieval and evaluation background could be useful to the team?
 
 ## Draft Founder or Hiring Outreach
 
@@ -156,7 +183,8 @@ Show interest through the specificity of the work proposed.
 
 Match the CTA to what the recipient can decide now:
 
-- Researcher: ask whether the question and background could be useful to a current project.
+- Academic collaborator: ask whether the question and background could be useful to a current project.
+- Research job: ask whether the background fits the named role and whether a conversation makes sense.
 - Founder or technical lead: ask for a short conversation about the named work or role.
 - Hiring manager: ask whether the experience fits the role and whether a conversation makes sense.
 - Warm contact: ask for a referral or routing to one named function.
@@ -184,13 +212,17 @@ Do not explain why the draft works unless asked. If one unresolved fact affects 
 
 ## Run the Final Check
 
-1. Delete facts the recipient already knows unless needed to locate the sender's point.
-2. Label every sentence as intent, proposal, proof, constraint, or ask. Delete anything without a label.
-3. Confirm every proof supports one proposed contribution.
-4. Separate verified facts, sender experience, and proposed ideas.
-5. Remove repeated nouns, setup phrases, adjective stacks, and explanations of the draft.
-6. Ensure the recipient can answer the final question in one line.
-7. Search for false equivalence: `same thing`, `before it existed`, `basically my job`, and `maps straight onto`.
-8. Confirm the CTA names what the conversation or referral is for.
+1. State who the recipient is, what they can offer, and what decision the message asks them to make.
+2. State the sender's real intention in one line. Confirm the draft expresses it rather than a safer substitute.
+3. Confirm the selected facts align with the recipient's evaluation criteria. Alignment means selecting and emphasizing true evidence, never inventing a persona or claim.
+4. Delete facts the recipient already knows unless needed to locate the sender's point.
+5. Label every sentence as intent, proposal, proof, constraint, or ask. Delete anything without a label.
+6. Confirm every proof supports one proposed contribution.
+7. Separate verified facts, sender experience, and proposed ideas.
+8. Remove repeated nouns, setup phrases, adjective stacks, and explanations of the draft.
+9. Ensure the recipient can answer the final question in one line.
+10. Search for false equivalence: `same thing`, `before it existed`, `basically my job`, and `maps straight onto`.
+11. Confirm the CTA names what the conversation or referral is for.
+12. Search for contribution lists such as `contribute across` or `A, B, and C`. Replace them with the single best-supported ownership loop.
 
 When revising an approved draft, change only the requested sentence unless the change creates a contradiction. When the user rejects a sentence as generic or distracting, remove its function instead of preserving it with synonyms.
