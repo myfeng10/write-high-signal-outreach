@@ -2,9 +2,48 @@
 
 Write concise outreach that gives a busy recipient a real reason to respond.
 
-This skill researches the recipient, identifies the decision they can make, chooses one ownership loop the sender can credibly support, and drafts one sendable message with one low-friction ask.
+**Use it when:** you have a real reason to contact someone and need one evidence-backed message—not a biography, compliment, or disguised ask.
 
-It is built for founder emails, research and engineering roles, academic collaboration, referral requests, technical networking, and follow-ups.
+**Returns:** one sendable message built around why this recipient, one contribution surface your evidence supports, why the fit is real, and one answerable ask.
+
+Use it for founder emails, research and engineering roles, academic collaboration, referral requests, technical networking, and follow-ups.
+
+## Actual user case
+
+> Write a 60–110 word email to Dr. Rao about the Research Engineer role on her agent-evaluation team. The team needs dataset construction, evaluation design, and production feedback analysis. My proof: I built a LongMemEval evaluation pipeline and shipped retrieval feedback instrumentation. My actual intention is to apply, not ask for a generic research chat.
+
+## What the skill returns
+
+> **Subject: Research Engineer, Agent Evaluation**
+>
+> Hi Dr. Rao,
+>
+> I'm applying for the Research Engineer role on your agent-evaluation team. I can own the evaluation loop from benchmark construction through analysis of production failures. I built a LongMemEval evaluation pipeline and shipped retrieval feedback instrumentation, giving me experience turning system behavior into structured datasets and actionable evaluation signals.
+>
+> Does this background fit what you need for the role, and would a brief conversation make sense?
+>
+> Best,<br>
+> Michelle
+
+The message chooses one coherent ownership loop instead of repeating the entire job description, connects it to proof, states the real intention, and asks for the actual decision.
+
+## A real project using the workflow
+
+The [EchoMem Group outreach research pack](https://github.com/myfeng10/myfeng10/tree/main/case-studies/echomem-outreach-research) applies the same reasoning beyond one email:
+
+- find a public pain signal
+- score whether the workflow is real
+- write down why now
+- show one private-by-default product moment
+- ask for one 3–5 person pilot
+
+## Try it
+
+```text
+Use $write-high-signal-outreach to research this recipient, choose the one ownership loop my evidence supports best, and draft one sendable message. Recipient/source: […]. Real intention: […]. My proof: […]. Channel and length: […].
+```
+
+Give it the recipient, a verified source or context block, your real intention, one or two proofs, and the channel or length when they matter. If current facts need verification and browsing is available, the skill researches them; otherwise it asks for verified context rather than guessing.
 
 ## Install
 
@@ -12,37 +51,4 @@ It is built for founder emails, research and engineering roles, academic collabo
 npx skills add myfeng10/write-high-signal-outreach
 ```
 
-Then restart your agent.
-
-## Example prompt
-
-```text
-Use $write-high-signal-outreach to research this recipient and draft one concise message for the role. Choose the single ownership loop my evidence supports best.
-```
-
-## What it protects against
-
-- explaining the recipient's own work back to them
-- hiding a job request behind vague technical curiosity
-- repeating an entire job description as a contribution claim
-- listing credentials without connecting them to one deliverable
-- asking for an undefined call instead of an answerable next step
-- laundering an inference into a verified fact
-
-## Output
-
-The skill returns one copy-ready message first. It uses one argument:
-
-1. why this recipient
-2. what the sender can credibly contribute or achieve
-3. why the collaboration fits
-4. one direct, low-friction ask
-
-## Actual before / after
-
-The same research-engineer outreach scenario was run in isolated Codex sessions and judged blindly.
-
-- Before: `9/10` — strong evidence and intent, but the contribution claim covered too many ownership surfaces.
-- After: `10/10` — selected one retrieval-evaluation loop, tied it to one proof, and made the employment intent explicit.
-
-See the [public evaluation note](https://github.com/myfeng10/myfeng10/blob/main/skills-evaluation.md#full-scorecard) for the frozen-suite method and full scorecard.
+Restart your agent, then invoke it with `$write-high-signal-outreach`.
